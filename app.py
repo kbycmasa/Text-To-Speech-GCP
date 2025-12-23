@@ -7,7 +7,7 @@ from google.cloud import texttospeech
 # --- Streamlit Cloud 用：Secrets → 一時ファイル作成 ---
 if "google" in st.secrets:
     with open("secret.json", "w") as f:
-        json.dump(st.secrets["google"], f)
+        json.dump(dict(st.secrets["google"]), f)
         
 # ==============================
 # 認証
