@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+
+# Streamlit
+.streamlit/
+
+# Google Cloud credentials
+secret.json
+
+# OS
+.DS_Store
+Thumbs.db
